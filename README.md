@@ -1,3 +1,24 @@
+# Proveably Random Raffle Contracts
+
+## About
+Create a proveably random raffle contract using the Foundry framework.
+
+## What to do
+1. User can enter by paying for a ticket
+    1. Ticket fees are going to go to the winner
+2. After X period of time, the winner is chosen randomly
+3. Use Chainlink VRF & Chainlink Automation 
+    1. Chainlink VRF -> Randomness
+    2. Chainlink Automation -> Time base trigger
+
+
+
+
+
+
+
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
