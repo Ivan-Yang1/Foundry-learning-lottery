@@ -5,7 +5,8 @@ Create a proveably random raffle contract using the Foundry framework.
 ## Learn about：
 1. Get Random num from Chainlink VRF
     1.Chainlink-brownie set up
-
+2. Using Chinkink automation to trigger the raffle
+    1. Chainlink keeper 
 
 ## What to do
 1. User can enter by paying for a ticket
