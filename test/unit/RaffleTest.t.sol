@@ -26,6 +26,7 @@ contract RaffleTest is StdCheats, Test {
     uint256 raffleEntranceFee;
     uint32 callbackGasLimit;
     address vrfCoordinatorV2;
+    address link;
 
     address public PLAYER = makeAddr("player");
     uint256 public constant STARTING_USER_BALANCE = 10 ether;
@@ -41,7 +42,8 @@ contract RaffleTest is StdCheats, Test {
             automationUpdateInterval,
             raffleEntranceFee,
             callbackGasLimit,
-            vrfCoordinatorV2, // link
+            vrfCoordinatorV2,
+            link
             // deployerKey
             ,
 
